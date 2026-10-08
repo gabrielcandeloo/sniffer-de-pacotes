@@ -1,6 +1,6 @@
 from scapy.all import sniff, dev_from_index
 
-print("\n--- INICIANDO CAPTURA EXCLUSIVA TCP ---") # <- Adicione esta linha!
+print("\n--- INICIANDO CAPTURA EXCLUSIVA TCP ---")
 
 minha_placa = dev_from_index(6)
 
